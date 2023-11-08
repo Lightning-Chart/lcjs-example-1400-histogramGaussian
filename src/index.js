@@ -91,20 +91,26 @@ const barChart = lightningChart().BarChart({
 
 const barDiv = barChart.engine.container
 
+const inputDiv = document.createElement('div')
+barDiv.append(inputDiv)
+inputDiv.style.position = "absolute"
+inputDiv.style.top = "0"
+
+
 const label = document.createElement('label')
-barDiv.append(label)
+inputDiv.append(label)
 label.innerHTML = "Number of bins:"
 label.style.position = "relative"
 
 const binInput = document.createElement('input')
-barDiv.append(binInput)
+inputDiv.append(binInput)
 barChart.setTitleMargin({top: 25, bottom: -10})
 binInput.type = "number"
 binInput.min = "1"
 binInput.max = "1000"
 binInput.value = "100"
 binInput.style.position = "relative"
-binInput.style.height = "5%"
+binInput.style.height = "30px"
 
 binInput.addEventListener('input', () => {
   const inputValue = parseInt(binInput.value)
