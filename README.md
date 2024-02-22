@@ -109,7 +109,7 @@ Official [API documentation][1] can be found on [LightningChart][2] website.
 
 If the docs and other materials do not solve your problem as well as implementation help is needed, ask on [StackOverflow][3] (tagged lightningchart).
 
-If you think you found a bug in the LightningChart JavaScript library, please contact support@lightningchart.com.
+If you think you found a bug in the LightningChart JavaScript library, please contact sales@lightningchart.com.
 
 Direct developer email support can be purchased through a [Support Plan][4] or by contacting sales@lightningchart.com.
 
@@ -122,10 +122,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Bar Chart]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/interfaces/BarChart.html
-[Bar Chart Bar]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/
-[Bar Chart Value Axis ]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/BarChartValueAxis.html
-[Bar Chart Category Axis]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/classes/BarChartCategoryAxis.html
-[Bar Chart Types]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/
-[Bar Chart Sorting]: https://lightningchart.com/js-charts/api-documentation/v5.0.1/
+[Bar Chart]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/interfaces/BarChart.html
+[Bar Chart Bar]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/BarChartBar.html
+[Bar Chart Value Axis ]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/BarChartValueAxis.html
+[Bar Chart Category Axis]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/classes/BarChartCategoryAxis.html
+[Bar Chart Types]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/variables/BarChartTypes.html
+[Bar Chart Sorting]: https://lightningchart.com/js-charts/api-documentation/v5.1.0/variables/BarChartSorting.html
 
