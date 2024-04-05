@@ -76,7 +76,9 @@ const calculateHistogramBins = (data, numberOfBins) => {
 const values = generateGaussianRandom(numberOfDataPoints)
 const histogramData = calculateHistogramBins(values, numberOfBins)
 
-const barChart = lightningChart().BarChart({ 
+const barChart = lightningChart({
+            resourcesBaseUrl: new URL(document.head.baseURI).origin + new URL(document.head.baseURI).pathname + 'resources/',
+        }).BarChart({ 
   theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
   type: BarChartTypes.Vertical
 })
