@@ -122,10 +122,10 @@ Direct developer email support can be purchased through a [Support Plan][4] or b
 © LightningChart Ltd 2009-2022. All rights reserved.
 
 
-[Bar Chart]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/BarChart.html
-[Bar Chart Bar]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/BarChartBar.html
-[Bar Chart Value Axis ]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/BarChartValueAxis.html
-[Bar Chart Category Axis]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/classes/BarChartCategoryAxis.html
-[Bar Chart Types]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/variables/BarChartTypes.html
-[Bar Chart Sorting]: https://lightningchart.com/js-charts/api-documentation/v6.0.0/variables/BarChartSorting.html
+[Bar Chart]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/BarChart.html
+[Bar Chart Bar]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/BarChartBar.html
+[Bar Chart Value Axis ]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/BarChartValueAxis.html
+[Bar Chart Category Axis]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/classes/BarChartCategoryAxis.html
+[Bar Chart Types]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/variables/BarChartTypes.html
+[Bar Chart Sorting]: https://lightningchart.com/js-charts/api-documentation/v6.1.0/variables/BarChartSorting.html
 
