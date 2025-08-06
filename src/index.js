@@ -78,11 +78,22 @@ const barChart = lightningChart({
     .BarChart({
         theme: Themes[new URLSearchParams(window.location.search).get('theme') || 'darkGold'] || undefined,
         type: BarChartTypes.Vertical,
+        legend: { addEntriesAutomatically: false },
     })
     .setTitle('Histogram')
     .setSorting(BarChartSorting.Disabled)
     .setValueLabels(undefined)
     .setData(histogramData)
+    
+const colorBars = () => {
+    // Set same color for all bars
+    const bars = barChart.getBars()
+    const fillSTyle = bars[0].getFillStyle()
+    bars.forEach((bar) => {
+        bar.setFillStyle(fillSTyle)
+    })
+}
+colorBars()
 
 const barDiv = barChart.engine.container
 
@@ -113,6 +124,7 @@ binInput.addEventListener('input', () => {
         const histogramData = calculateHistogramBins(values, inputValue)
         barChart.setData(histogramData).setSorting(BarChartSorting.Disabled)
     }
+    colorBars()
 })
 
 // Enable grid lines
@@ -124,9 +136,3 @@ barChart.valueAxis.setTickStrategy(AxisTickStrategies.Numeric, (ticks) =>
         ),
 )
 
-// Set same color for all bars
-const bars = barChart.getBars()
-const fillSTyle = bars[0].getFillStyle()
-bars.forEach((bar) => {
-    bar.setFillStyle(fillSTyle)
-})
